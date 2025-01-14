@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  background: linear-gradient(45deg, #000 0%, #1a1a1a 100%);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.about, .services, .discovery-call {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.service-item {
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
